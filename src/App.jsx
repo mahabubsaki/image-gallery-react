@@ -1,4 +1,4 @@
-import { Checkbox, CheckboxGroup } from '@chakra-ui/react';
+import { Checkbox } from '@chakra-ui/react';
 import React, { useRef, useState } from 'react';
 
 import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd';
