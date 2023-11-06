@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 50px; 
+}
+
+.grid-item:first-child {
+    grid-row: span 2;
+    grid-column: span 2;
+    height: 430px;
+}
+
+.grid-item {
+    text-align: center;
+    height: 190px;
+    grid-row: auto;
+    grid-column: auto; 
+}
